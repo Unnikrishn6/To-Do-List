@@ -1,0 +1,87 @@
+body {
+    background-color: #E4E9FD;
+    background: linear-gradient(131deg, rgba(142, 180, 255, 1) 24%, rgba(241, 147, 119, 1) 85%);
+    min-height: 1000px;
+    font-family: Verdana;
+  }
+  
+  h1 {
+    color: #652e76;
+    padding: 10px;
+  }
+  
+  .box {
+    max-width: 450px;
+    margin: 50px auto;
+    background: white;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 3);
+  }
+  
+  #heading {
+    background-color: #da9ff6;
+    text-align: center;
+  }
+  
+  .item {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .form{
+    min-height: 70px;
+    align-items: center;
+  }
+  
+  input:checked+p {
+    text-decoration: line-through;
+    text-decoration-color: #679b9b;
+  }
+  
+  input[type="checkbox"] {
+    margin: 20px;
+  }
+  
+  p {
+    margin: 0;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 200;
+    color: #00204a;
+  }
+  
+  form {
+    text-align: center;
+    margin: 6px;
+  }
+  
+  input[type="text"] {
+    text-align: center;
+    height: 35px;
+    border: 1px solid rgba(74, 73, 73, 0.5);
+    font-size: 21px;
+    font-weight: 200;
+    width: 400px;
+  }
+  
+  button {
+    min-height: 40px;
+    width: 20%;
+    border-radius: 6px;
+    border-color: transparent;
+    background-color: #b14dcf;
+    color: #fff;
+    font-size: 20px;
+    margin: 20px;
+    display: inline;
+    cursor:pointer;
+  }
+  
+  input[type="text"]:focus {
+    outline: 2px solid #4491f7;
+  }
+  
+  ::placeholder {
+    color: grey;
+    opacity: 1;
+  }
